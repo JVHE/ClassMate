@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/not_interested"
+        android:title="관심 없음" />
+    <item
+        android:id="@+id/report"
+        android:title="신고" />
+</menu>

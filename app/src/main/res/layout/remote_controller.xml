@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#aa5eecac"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00711e"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="helper"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/ib_minimize"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/minimize" />
+
+        <ImageButton
+            android:id="@+id/ib_exit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/close_button" />
+
+    </LinearLayout>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_recording"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:backgroundTint="#ffffff"-->
+        <!--android:text="녹화하기" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_upload_activity"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:backgroundTint="#ffffff"-->
+        <!--android:text="작성화면으로" />-->
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <!--<ImageButton-->
+            <!--android:id="@+id/btn_back"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/back" />-->
+
+
+            <ImageButton
+                android:id="@+id/ib_pen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/pen" />
+
+            <ImageButton
+                android:id="@+id/ib_laser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/laser_pointer" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/ib_eraser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/eraser" />
+
+            <ImageButton
+                android:id="@+id/ib_clear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/clear" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/ib_marker"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/marker" />
+
+            <!--android:scaleType="fitXY"-->
+            <ImageButton
+                android:id="@+id/ib_focus_off"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/focus_off" />
+        </TableRow>
+
+
+    </TableLayout>
+</LinearLayout>
