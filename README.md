@@ -1,7 +1,8 @@
 # DASHStreamingExample
 
-1:1 과외를 하기 위한 동영상 스트리밍 어플리케이션 데모입니다. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RMkTWNjY1Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+1:1 과외를 하기 위한 동영상 스트리밍 어플리케이션 데모입니다.<br/>
+
+{% include youtube_link.html id="RMkTWNjY1Vc" %}<br/>
 화상통화 연결 이후 화면 미러링, 화면 강조 리모콘 시연,  웹서버에 업로드된 비디오 재생 및 네트워크 환경에 따른 Adaptive Streaming 순서로 진행됩니다.
 
 ## 사용 기술
