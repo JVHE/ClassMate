@@ -14,13 +14,10 @@
 - 주요 라이브러리/API: MediaProjection / ExoPlayer / Glide  / MPAndroidChart
 
 ## 데모
-- 네트워크 환경에 따른 adaptive streaming<br/>
-![1](gif/dash_streaming.gif)
-- 레이저 포인터<br/>
-![2](gif/레이저.gif)
-- 펜<br/>
-![3](gif/펜.gif)
-- 마커펜<br/>
-![4](gif/마커펜.gif)
-- 지우개<br/>
-![5](gif/지우개.gif)
+
+<img src="gif/dash_streaming.gif" height="250"><img src="gif/펜.gif" height="250"><img src="gif/레이저.gif" height="250"><img src="gif/마커펜.gif" height="250"><img src="gif/지우개.gif" height="250">
+- 네트워크 환경에 따른 adaptive streaming
+- 레이저 포인터
+- 펜
+- 마커펜
+- 지우개
