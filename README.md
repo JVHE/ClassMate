@@ -5,6 +5,11 @@
 
 동영상 링크: https://www.youtube.com/watch?v=RMkTWNjY1Vc<br/>
 화상 통화 연결 이후 화면 미러링, screen drawing service 시연, 웹서버에 업로드된 비디오 재생 및 네트워크 환경에 따른 adaptive streaming 순서로 진행됩니다.<br/>
+
+## 주요 기능
+- 1:1 영상통화 및 화면 미러링
+- 네트워크 환경에 따른 adaptive streaming
+- screen drawing service
  
 ## 사용 기술
 - 언어: Java, PHP, JavaScript
@@ -16,13 +21,23 @@
 
 ## 기능 설명
 
-### 네트워크 환경에 따른 adaptive streaming
+### 1. 1:1 영상통화 및 화면 미러링
+
+#### 영상통화
+<img src="gif/video_call.gif" height="250"><br/> 
+상대방과 영상 통화를 할 수 있습니다.<br/>
+
+#### 화면 미러링
+<img src="gif/screen_mirroring.gif" height="250"><br/> 
+영상통화 연결 후 화면 미러링 버튼을 누르면 상대방에게 자신의 화면을 송출할 수 있습니다.<br/>
+
+### 2. 네트워크 환경에 따른 adaptive streaming
 <img src="gif/dash_streaming.gif" height="250"><br/> 
 화면 상단에는 동영상 플레이어, 하단에는 네트워크 세기 그래프가 있습니다.<br/>
 네트워크 환경에 따라 적절한 화질의 동영상을 제공합니다.<br/>
 MPEG-DASH프로토콜을 이용하여 구현하였습니다.<br/>
 
-### screen drawing service
+### 3. screen drawing service
 screen drawing service를 이용하여 화면에 여러 가지 조작을 할 수 있습니다.
 #### 펜, 레이저 포인터, 마커 펜
 <img src="gif/펜.gif" height="250"> <img src="gif/레이저.gif" height="250"> <img src="gif/마커펜.gif" height="250"><br/>
