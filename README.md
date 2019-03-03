@@ -1,5 +1,7 @@
 # ClassMate
+<img src="gif/screen_mirroring.gif" height="250"> <img src="gif/dash_streaming.gif" height="250"><br/> 
 
+## 소개
 1:1 과외를 하기 위한 동영상 스트리밍 어플리케이션 팀 프로젝트의 일부 코드입니다.<br/>
 (adaptive streaming, screen drawing service)<br/>
 
@@ -12,7 +14,7 @@
 - screen drawing service
  
 ## 사용 기술
-- 언어: Java, PHP, JavaScript
+- 언어: Java, php, JavaScript
 - 운영체제: Android, Ubuntu
 - 웹서버: Apache
 - 데이터베이스: MySQL
@@ -32,7 +34,7 @@
 영상통화 연결 후 화면 미러링 버튼을 누르면 상대방에게 자신의 화면을 송출할 수 있습니다.<br/>
 
 ### 2. 네트워크 환경에 따른 adaptive streaming
-<img src="gif/dash_streaming.gif" height="250"><br/> 
+<img src="gif/dash_streaming.gif" height="250"><br/>
 화면 상단에는 동영상 플레이어, 하단에는 네트워크 세기 그래프가 있습니다.<br/>
 네트워크 환경에 따라 적절한 화질의 동영상을 제공합니다.<br/>
 MPEG-DASH프로토콜을 이용하여 구현하였습니다.<br/>
