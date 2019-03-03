@@ -31,7 +31,7 @@
 
 #### 화면 미러링
 <img src="gif/screen_mirroring.gif" height="250"><br/> 
-영상통화 연결 후 화면 미러링 버튼을 누르면 상대방에게 자신의 화면을 송출할 수 있습니다.<br/>
+영상통화 중 미러링 기능을 사용하면 상대방에게 자신의 화면을 송출할 수 있습니다.<br/>
 
 ### 2. 네트워크 환경에 따른 adaptive streaming
 <img src="gif/dash_streaming.gif" height="250"><br/>
