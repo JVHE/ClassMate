@@ -11,7 +11,7 @@
 - 운영체제: Android, Ubuntu
 - 웹서버: Apache
 - 데이터베이스: MySQL
-- 프로토콜: HTTP, Mpeg-DASH
+- 프로토콜: HTTP, MPEG-DASH
 - 주요 라이브러리/API: MediaProjection / ExoPlayer / Glide  / MPAndroidChart
 
 ## 기능 설명
@@ -20,6 +20,7 @@
 <img src="gif/dash_streaming.gif" height="250"><br/> 
 화면 상단에는 동영상 플레이어, 하단에는 네트워크 세기 그래프가 있습니다.<br/>
 네트워크 환경에 따라 적절한 화질의 동영상을 제공합니다.<br/>
+MPEG-DASH프로토콜을 이용하여 구현하였습니다.<br/>
 
 ### screen drawing service
 screen drawing service를 이용하여 화면에 여러 가지 조작을 할 수 있습니다.
